@@ -1,0 +1,204 @@
+body{margin: 0;}
+
+
+.experience { 
+	background-color: #E86F76;
+	color:white;
+	padding: 5px; 
+	text-align: center; 
+
+}
+
+.rose {
+	color: white; 
+	font-size : 50px;
+	margin-left: 20px;
+	margin-bottom: 30px
+	margin-top: 50px;
+	  
+
+
+}
+
+#icons {
+	margin-top: 400px ;
+
+
+}
+
+                 
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 20px;
+	font-size: 30px;
+
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color:white;
+	margin-left: 20px ;
+
+}
+
+
+
+
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #E86F76;
+}
+
+
+.Titre1 {
+	color:#726767;
+}
+
+.Titre2 {
+	color:#E86F76;
+}
+
+
+.experiences-card { 
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-gap: 10px;
+	padding: 5px;
+	font-family: 'Roboto', sans-serif
+}
+
+
+.card img {
+	width: 100%;
+}
+
+
+.phrisechrono {
+	text-align:center;
+   margin:left;
+}
+
+ 
+
+.colone-gauche {
+	background-color: #E86F76 ;
+	color: white;
+
+}
+
+
+.colone-milieu {
+	background-image: url('image/PROFIL.jpg');
+	background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.colone-milieu p {
+	margin-top: 85%;
+	
+	
+}
+
+
+
+.colone-droite {
+	display: grid;
+  	grid-template-rows: 50% 1fr;
+  	font-size: 30px;
+
+}
+
+
+.container-top { 
+	display: grid; 
+	grid-template-columns: 10% 30% auto; 
+	
+ }
+
+ .colone-droite-top {
+ 	background-image: url('image/PARCOURS.jpg');
+	background-size: cover;
+    background-position: center;
+
+
+ }
+
+.colone-droite-top p { 
+	margin-top: 25%;
+ }
+
+
+
+.petits-carres { 
+	display: grid; 
+	grid-template-columns: 1fr 1fr; 
+ }
+
+ .pcg {
+ 	background-image: url('image/COMPETENCES.jpg');
+	background-size: cover;
+    background-position: center;
+ }
+
+ .pcg p { 
+ 	margin-top: 45%;
+  }
+
+ .pcd {
+ 	background-image: url('image/INTERET.jpg');
+	background-size: cover;
+    background-position: center;
+
+ }
+
+ .pcd p { 
+ 	margin-top: 45%; 
+  }
+
+ .imgtop {
+ 	position:absolute;
+ 	right: 0px; 
+ 	width: 200px;
+ 	height: auto;
+ }
+
+ .titretop {
+ 	position:absolute;
+ 	margin-bottom: 100%;
+ 	color: #E86F76 ;
+ }
+
+
+
+html{
+  scroll-behavior: smooth;
+
+}
+
+
+@media (max-width: 520px) {
+
+	.experiences-card { 
+
+	grid-template-columns: 1fr 1fr 1fr; 
+	grid-gap: 10px;
+	padding: 5px;
+	font-family: 'Roboto', sans-serif; 
+	}
+
+}
+
+.lien-images {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding-top: 400px;
+}
+
